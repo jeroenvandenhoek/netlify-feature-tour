@@ -1,6 +1,6 @@
 exports.handler = async () => {
   return {
     statusCode: 200,
-    body: `hello world! I have a ${process.env.MY_SECRET}`,
+    body: `hello world! I have a ${process.env.MY_SECRET}.`,
   };
 };
